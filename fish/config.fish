@@ -18,9 +18,11 @@ if status is-interactive
 
 	# Git aliases
 	alias gs="git status"
-	alias ga="git add -A"
+	alias ga="git add"
+	alias gaa="git add -A"
     alias gc="git commit -m"
-	alias go="git push"
+	alias gp="git push"
+
 
 
     set PS1 '[\u@\h \W]\$ '
